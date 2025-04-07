@@ -1,8 +1,9 @@
-# Blobs are from samsung/a20ektt/a20e:11/RP1A.200720.012/A202KKKU8CUL3:user/release-keys, unless otherwise stated.
+# Blobs are from samsung/a20exx/a20e:11/RP1A.200720.012/A202FXXU5CWF2:user/release-keys, unless otherwise stated.
 
 # Audio
 vendor/lib/hw/audio.primary.exynos7884B.so
 vendor/lib/vndk/libaudioroute.so
+vendor/lib/lib_SamsungRec_07010.so
 
 # Dap
 vendor/etc/dolby/dax-default.xml
@@ -43,16 +44,14 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 # Sensors
-vendor/etc/yas_set.cfg
 vendor/lib64/hw/sensors.universal7884B.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libyasalgo.so
 
 # GPS
 vendor/bin/hw/gpsd
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/lib64/hw/android.hardware.gnss@2.1-impl.so          vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/libwrappergps.so
 
 # Gatekeeper
@@ -81,8 +80,11 @@ vendor/firmware/setfile_4ha_front.bin
 vendor/firmware/setfile_sr556.bin
 
 # NFC firmware
-vendor/etc/nfc/sec_s3nrn81_rfreg.bin
-vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+
+# NFC config
+vendor/etc/libnfc-sec-vendor.conf
 
 # Wifi
 vendor/etc/wifi/hydra_config.sdb
@@ -96,3 +98,6 @@ vendor/etc/wifi/mx140_t_wlan_t.hcf
 vendor/etc/wifi/mx140_wlan.hcf
 vendor/etc/wifi/mx140_wlan_t.hcf
 vendor/etc/wifi/platform.txt
+
+# TEE firmware
+vendor/tee/00000000-0000-0000-0000-46494e474552
