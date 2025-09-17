@@ -20,6 +20,8 @@ PRODUCT_MODEL := SM-A202F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a20exx-user 11 RP1A.200720.012 A202FXXU5CWF2 release-keys" \
     BuildFingerprint=samsung/a20exx/a20e:11/RP1A.200720.012/A202FXXU5CWF2:user/release-keys
