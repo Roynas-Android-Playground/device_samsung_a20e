@@ -16,7 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 BUILD_FINGERPRINT := "samsung/a20ektt/a20e:11/RP1A.200720.012/A202KKKU8CUL3:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   BuildDesc=$(call normalize-path-list, "a20ektt-user 11 RP1A.200720.012 A202KKKU8CUL3 release-keys")
+   BuildDesc="a20ektt-user 11 RP1A.200720.012 A202KKKU8CUL3 release-keys"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a20e
